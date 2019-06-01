@@ -27,3 +27,5 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+flightreservation2/src/main/resources/application.properties
