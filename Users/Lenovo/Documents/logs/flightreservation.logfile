@@ -1,0 +1,60 @@
+2019-06-06 19:40:52.358  INFO 17116 --- [main] c.b.f.DemoApplicationTests               : Starting DemoApplicationTests on DESKTOP-1PLCMRP with PID 17116 (started by Lenovo in C:\Users\Lenovo\JavaProjects\flightreservation2)
+2019-06-06 19:40:52.365  INFO 17116 --- [main] c.b.f.DemoApplicationTests               : No active profile set, falling back to default profiles: default
+2019-06-06 19:40:54.836  INFO 17116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-06 19:40:55.159  INFO 17116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 286ms. Found 4 repository interfaces.
+2019-06-06 19:40:56.561  INFO 17116 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c584bf72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-06 19:40:57.322  INFO 17116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-06 19:40:58.863  INFO 17116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-06 19:40:59.262  INFO 17116 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-06 19:40:59.439  INFO 17116 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-06-06 19:40:59.451  INFO 17116 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-06 19:40:59.987  INFO 17116 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-06 19:41:00.430  INFO 17116 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-06 19:41:02.480  INFO 17116 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-06 19:41:03.505  INFO 17116 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-06 19:41:06.110  INFO 17116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-06 19:41:06.273  WARN 17116 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-06 19:41:06.657  INFO 17116 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2019-06-06 19:41:07.251  INFO 17116 --- [main] c.b.f.DemoApplicationTests               : Started DemoApplicationTests in 16.096 seconds (JVM running for 18.027)
+2019-06-06 19:41:07.676  INFO 17116 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-06 19:41:07.696  INFO 17116 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-06 19:41:07.721  INFO 17116 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-06-06 19:41:07.755  INFO 17116 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-06-06 19:42:36.288  INFO 1132 --- [restartedMain] c.b.flightreservation2.DemoApplication   : Starting DemoApplication on DESKTOP-1PLCMRP with PID 1132 (C:\Users\Lenovo\JavaProjects\flightreservation2\target\classes started by Lenovo in C:\Users\Lenovo\JavaProjects\flightreservation2)
+2019-06-06 19:42:36.298  INFO 1132 --- [restartedMain] c.b.flightreservation2.DemoApplication   : No active profile set, falling back to default profiles: default
+2019-06-06 19:42:36.538  INFO 1132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-06 19:42:36.538  INFO 1132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-06 19:42:38.664  INFO 1132 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-06 19:42:38.871  INFO 1132 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183ms. Found 4 repository interfaces.
+2019-06-06 19:42:39.766  INFO 1132 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea0db9ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-06 19:42:41.275  INFO 1132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-06 19:42:41.353  INFO 1132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-06 19:42:41.363  INFO 1132 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-06-06 19:42:41.982  INFO 1132 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-06 19:42:42.018  INFO 1132 --- [restartedMain] o.a.c.c.C.[.[.[/flightReservation]       : Initializing Spring embedded WebApplicationContext
+2019-06-06 19:42:42.032  INFO 1132 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5494 ms
+2019-06-06 19:42:42.422  INFO 1132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-06 19:42:42.993  INFO 1132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-06 19:42:43.239  INFO 1132 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-06 19:42:43.424  INFO 1132 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-06-06 19:42:43.435  INFO 1132 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-06 19:42:43.697  INFO 1132 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-06 19:42:44.006  INFO 1132 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-06 19:42:45.425  INFO 1132 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-06 19:42:45.983  INFO 1132 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-06 19:42:46.986  INFO 1132 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-06 19:42:47.126  WARN 1132 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-06 19:42:47.346  INFO 1132 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2019-06-06 19:42:47.702  INFO 1132 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-06 19:42:47.909  INFO 1132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightReservation'
+2019-06-06 19:42:47.930  INFO 1132 --- [restartedMain] c.b.flightreservation2.DemoApplication   : Started DemoApplication in 12.459 seconds (JVM running for 13.486)
+2019-06-06 19:43:27.362  INFO 1132 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/flightReservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-06 19:43:27.376  INFO 1132 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-06 19:43:27.412  INFO 1132 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-06-06 19:43:27.478  INFO 1132 --- [http-nio-8080-exec-3] c.b.f.controllers.UserController         : Inside showLoginPage()
+2019-06-06 19:43:29.104  WARN 1132 --- [http-nio-8080-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [435] milliseconds.
+2019-06-06 19:43:37.344  INFO 1132 --- [http-nio-8080-exec-5] c.b.f.controllers.UserController         : Inside login(), show email + bob.currie@fsresearch.co.ukpassword TEST

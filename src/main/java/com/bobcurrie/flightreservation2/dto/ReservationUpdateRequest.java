@@ -36,4 +36,13 @@ public class ReservationUpdateRequest {
     public void setCheckedIn(Boolean checkedIn) {
         this.checkedIn = checkedIn;
     }
+
+    @Override
+    public String toString() {
+        return "ReservationUpdateRequest{" +
+                "id=" + id +
+                ", numberOfBags=" + numberOfBags +
+                ", checkedIn=" + checkedIn +
+                '}';
+    }
 }
